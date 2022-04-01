@@ -1,0 +1,31 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    padding-left: 4rem;
+    margin-top: 9.7rem;
+}
+
+.img-card-container{
+    height:20rem;
+    width:14rem;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:none;
+    background-color: var(--background-color-one);
+}
+
+.img-container {
+    height:12rem;
+    width:12rem;
+}
+
+.img-card-container:hover {
+    box-shadow: 5px 5px 5px  var(--border-color), -5px -5px 5px  var(--border-color);
+}
+
+.add-to-cart-btn{
+    width:12rem;
+    background-color: var(--color-two);
+}
